@@ -16,6 +16,7 @@ TARGET_PREBUILT_DTIMAGE := $(DEVICE_PATH)/prebuilt/dt.img # Used by mkbootimg.mk
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := SM-T113,goyave,goyavewifi,smt113
 BOARD_HAS_NO_SELECT_BUTTON := true
-TW_THEME := landscape_hdpi
-RECOVERY_TOUCHSCREEN_FLIP_Y := true
-RECOVERY_TOUCHSCREEN_SWAP_XY := true
+TW_THEME := portrait_hdpi
+TW_ROTATION := 270
+#RECOVERY_TOUCHSCREEN_FLIP_Y := true
+#RECOVERY_TOUCHSCREEN_SWAP_XY := true
